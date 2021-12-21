@@ -1,5 +1,4 @@
-export function InitialUserList() {
-  const StaticUserList = [
+export const StaticUserList = [
     {
       id: 1,
       name: "Nakshathra",
@@ -49,9 +48,5 @@ export function InitialUserList() {
       details: "purest love"
     },
   ];
-  return (
-    <div>
+  
 
-    </div>
-  );
-}
